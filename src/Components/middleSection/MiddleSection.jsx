@@ -1,6 +1,6 @@
 import React from "react";
 import "./middleSection.css";
-import MiddleSectionAtom from "../../Atoms/middleSectionAtom/middleSectionAtom";
+import MiddleSectionAtom from "../../Atoms/middleSectionAtom/MiddleSectionAtom";
 import { GiCardPlay } from "react-icons/gi";
 import { TbMapSearch } from "react-icons/tb";
 import { AiOutlineHeart } from "react-icons/ai";
