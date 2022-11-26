@@ -1,0 +1,98 @@
+.footer-b {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  padding: 0 0 100px 0;
+  /* padding: 100px; */
+}
+.footer-b p {
+  color: #6c757d;
+  font-size: 16px;
+}
+.footer-main-b {
+  background-color: #e9ecef;
+  padding: 100px 0px 0 0px;
+}
+
+.footer-b ul li {
+  list-style: none;
+  color: #6c757d;
+}
+.footer-b ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.d-2 {
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  font-size: 15px;
+}
+/* .d-2{
+} */
+
+.d-text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+.d-icons {
+  color: grey;
+  gap: 10px;
+  cursor: pointer;
+  display: flex;
+}
+.footer-b input {
+  border: 1px solid black;
+  border-radius: 7px;
+  display: inline;
+  position: relative;
+  width: 100%;
+  padding: 10px 0;
+}
+.t-icon {
+  position: absolute;
+  /* right: 0; */
+  margin-left: 280px;
+  margin-top: 5px;
+  z-index: 1000;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.t-icon:hover{
+    color: #6c757d;
+    /* background-color: #6c757d; */
+
+}
+
+.card{
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+
+}
+
+.footer-l{
+    background-color: #343a40;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+    color: white;
+    
+}
+.footer-l p{
+    font-size: 15px;
+}
+
+@media (max-width: 950px){
+ .footer-b{
+  display: block;
+  padding-left: 15px;
+ }
+ .rentals, .dod{
+  margin: 50px 0;
+ }
+ .footer-b input{
+  width: 330px;
+ }
+}

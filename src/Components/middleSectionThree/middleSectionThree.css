@@ -1,0 +1,45 @@
+.three {
+  background-image: url(../../assets//threeBg.webp);
+  height: 600px;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-weight: bold;
+  font-size: 75px;
+  font-family: serif;
+  color: white;
+}
+
+.btn-center{
+  outline: none;
+  border: none;
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  width: 150px;
+  margin: 30px 0;
+  cursor: pointer;
+}
+.btn-center:hover {
+  background-color: rgb(197, 197, 197);
+}
+@media (max-width: 950px){
+.three{
+  height: 500px;
+}
+.title{
+  font-size: 50px;
+}
+.three-pad{
+  padding: 10px;
+}
+}

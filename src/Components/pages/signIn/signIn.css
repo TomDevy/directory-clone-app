@@ -1,0 +1,132 @@
+.s-body {
+  background-image: url(../../../assets/threeBg.webp);
+  height: 100%;
+  background-size: cover;
+}
+/* .wc{
+    padding: 100px; */
+/* margin-top: -190px; */
+/* font-weight: bold;
+    
+} */
+.s-main {
+  padding: 100px 150px;
+  background-color: white;
+  width: 650px;
+  height: 700px;
+  /* display: flex;
+    justify-content: center; */
+}
+.sp-logo {
+  /* width: 70px; */
+  display: flex;
+  justify-content: space-between;
+  /* padding: 0 50px; */
+  align-items: center;
+}
+.sp-logo img {
+  width: 70px;
+}
+.s-icon {
+  font-size: 30px;
+  color: blue;
+  cursor: pointer;
+}
+
+.login {
+  padding: 20px 0;
+}
+.pass,
+.user {
+  width: 100%;
+  background-color: white;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+}
+
+.label {
+  color: gray;
+  letter-spacing: 3px;
+  font-size: 15px;
+  padding: 10px 0 5px 0;
+}
+.p-word {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.f-pass {
+  color: blue;
+  font-size: 12px;
+}
+.check {
+  width: 15px;
+}
+.cb {
+  display: flex;
+  gap: 5px;
+}
+.check-name {
+  color: gray;
+  font-size: 14px;
+  padding: 10px 0;
+}
+.sign-btn {
+  width: 100%;
+  height: 50px;
+  font-size: 15px;
+  margin: 10px 0;
+}
+.fb-button,
+.button-go {
+  background-color: white;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+.fb-button:hover {
+  color: white;
+  background-color: blue;
+}
+.button-go:hover {
+  color: white;
+  background-color: gray;
+}
+.fb-button {
+  color: blue;
+  border: 1px solid blue;
+  width: 100%;
+  margin: 5px 0;
+}
+.icon-fb,
+.icon-go {
+  font-size: 25px;
+}
+.button-go {
+  width: 100%;
+  border: 1px solid gray;
+  color: gray;
+  margin: 10px 0;
+}
+.pgh {
+  text-align: center;
+  padding: 15px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.pgh p {
+  font-size: 14px;
+  color: gray;
+}
+.s-up {
+  color: blue;
+  font-size: 13px;
+}
+
+@media (max-width: 950px) {
+  .s-main {
+    padding: 50px 100px;
+  }
+}

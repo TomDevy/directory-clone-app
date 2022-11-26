@@ -1,0 +1,35 @@
+.middle-top {
+  background-color: #fff;
+  padding: 100px;
+  display: block;
+}
+.top-text{
+    color: #4e66f8;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    display: block;
+}
+a{
+  color: darkgray;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+.guide{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.guide h2{
+  font-size: 30px;
+  font-weight: bold;
+}
+@media (max-width: 950px){
+ .guide{
+  display: block;
+ }
+ .middle-top{
+  padding: 50px;
+ }
+}

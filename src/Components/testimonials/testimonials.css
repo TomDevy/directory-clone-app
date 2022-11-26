@@ -1,0 +1,20 @@
+.testimonial {
+  /* text-align: center; */
+  padding: 100px 0;
+}
+.testimonial-text {
+  color: #4e66f8;
+  letter-spacing: 0.2em;
+  font-weight: 700;
+  display: block;
+  text-align: center;
+}
+.about {
+  font-size: 35px;
+  text-align: center;
+}
+@media (max-width: 950px){
+ .about{
+  font-size: 20px;
+ }
+}

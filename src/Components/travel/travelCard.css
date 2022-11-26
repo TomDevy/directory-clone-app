@@ -1,0 +1,53 @@
+.travel-card {
+background-color: white;
+width: 350px;
+/* height: fit; */
+border-radius: 7px;
+box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+position: relative;
+
+}
+.travel-card:hover {
+    margin-top: -7px;
+}
+
+.travel {
+    padding: 15px;
+}
+
+.travel-bg{
+    width: 350px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.title-travel {
+    font-weight: normal;
+    color: gray;
+    letter-spacing: 0.2em;
+    margin: 10px 0px;
+    border-radius: 7px;
+}
+.sub {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+.date {
+    color: gray;
+    margin: 10px 0px;
+}
+.more {
+    margin: 10px 0;
+    letter-spacing: 0.2em;
+    color: blue;
+    font-weight: bold;
+}
+.title-travel:hover, .sub:hover, .more:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+@media (max-width: 950px){
+ .travel-card{
+    margin: 15px 0;
+ }
+}
