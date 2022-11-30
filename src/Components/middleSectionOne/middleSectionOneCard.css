@@ -33,7 +33,7 @@
 
 @media (max-width: 950px){
   flex-card{
-    display: block;
+    display: flex;
   }
   .card-body img {
     width: 430px;
