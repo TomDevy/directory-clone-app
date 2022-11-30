@@ -32,7 +32,14 @@
 }
 
 @media (max-width: 950px){
-  .flex-card{
+  flex-card{
     display: block;
+  }
+  .card-body img {
+    width: 430px;
+  }
+  .card-body{
+    /* padding-right: -2.0rem; */
+    padding-left: 0;
   }
 }
