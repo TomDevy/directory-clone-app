@@ -27,7 +27,7 @@ a:hover{
 }
 @media (max-width: 950px){
  .guide{
-  display: block;
+  display: flex;
  }
  .middle-top{
   padding-left: 10px;
