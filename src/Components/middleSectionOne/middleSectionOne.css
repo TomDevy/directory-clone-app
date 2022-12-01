@@ -32,4 +32,8 @@ a:hover{
  .middle-top{
   padding: 50px;
  }
+ .flex-card{
+  width: 450px;
+  display: block;
+ }
 }

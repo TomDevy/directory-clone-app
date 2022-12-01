@@ -98,3 +98,14 @@ color: blue;
     align-items: center;
     gap: 5px;
 }
+@media (max-width: 950px){
+    .section-II-card{
+        width: 370px;
+    }
+    .section-II-background{
+        width: 370px;
+    }
+    .stars{
+        width: 370px;
+    }
+}
