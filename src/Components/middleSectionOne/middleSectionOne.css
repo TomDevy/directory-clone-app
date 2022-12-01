@@ -25,6 +25,7 @@ a:hover{
   font-size: 30px;
   font-weight: bold;
 }
+
 @media (max-width: 950px){
  .guide{
   display: block;

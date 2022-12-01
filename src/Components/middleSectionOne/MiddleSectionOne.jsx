@@ -10,7 +10,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const MiddleSectionOne = () => {
-    function SampleNextArrow(props) {
+  function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
       <div
@@ -20,7 +20,7 @@ const MiddleSectionOne = () => {
       />
     );
   }
-    function SamplePrevArrow(props) {
+  function SamplePrevArrow(props) {
     const { className, style, onClick } = props;
     return (
       <div
@@ -30,16 +30,16 @@ const MiddleSectionOne = () => {
       />
     );
   }
-   const settings = {
+  const settings = {
     dots: true,
     // className: "slider variable-width",
     infinite: true,
     speed: 800,
-    slidesToShow: 2,
-    slidesToScroll: 2,
+    slidesToShow: 5,
+    slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 5000,
-    centerPadding: "60px",
+    // centerPadding: "60px",
     swipeToSlide: true,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
@@ -47,7 +47,7 @@ const MiddleSectionOne = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
           dots: true,
@@ -81,52 +81,42 @@ const MiddleSectionOne = () => {
       </div>
       <div className="flex-card">
         <Slider {...settings}>
-    <div className="link">
-          <div className="place">
+          <div className="xtra">
             <MiddleSectionOneCard
               Poster={prague}
               City="Prague"
               Description="City of hundred towers"
             />
           </div>
-        </div>
-        <div className="link">
-          <div className="place">
+          <div className="xtra">
             <MiddleSectionOneCard
               Poster={newyork}
               City="New York"
               Description="The big apple"
             />
           </div>
-        </div>
-        <div className="link">
-          <div className="place">
+          <div className="xtra">
             <MiddleSectionOneCard
               Poster={paris}
               City="Paris"
               Description="Artist capital of Europe"
             />
           </div>
-        </div>
-        <div className="link">
-          <div className="place">
+          <div className="xtra">
             <MiddleSectionOneCard
               Poster={barcelona}
               City="Barcelona"
               Description="Dali, Gaudi, Barrio, Gotico"
             />
           </div>
-        </div>
-        <div className="link">
-          <div className="place">
+          <div className="xtra">
             <MiddleSectionOneCard
               Poster={prague}
               City="Prague"
               Description="City of hundred towers"
             />
           </div>
-        </div>
-    </Slider>
+        </Slider>
       </div>
     </div>
   );

@@ -9,6 +9,8 @@
   
 }
 
+
+
 .card-body:hover{
    margin-top: -7px;
 }
@@ -26,15 +28,16 @@
     color: white;
 }
 .flex-card{
-    display: flex;
+    /* display: flex; */
     gap: 10px;
-    padding: 20px;
+    /* padding: 20px; */
+    width: 100%;
 }
 
 @media (max-width: 950px){
-  .card-body{
+  /* .card-body{
     display: block;
-  }
+  } */
   .flex-card{
     display: block;
   }
