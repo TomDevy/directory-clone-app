@@ -29,3 +29,14 @@ display: block;
     padding: 50px 0;
  }
 }
+@media (max-width: 950px){
+   .section-II-card{
+      width: 450px;
+   }
+   .section-II-body{
+      width: 450px;
+   }
+   .section-II-background{
+      width: 450px;
+   }
+}
