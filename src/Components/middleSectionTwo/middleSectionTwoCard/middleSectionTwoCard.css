@@ -101,6 +101,8 @@ color: blue;
 @media (max-width: 950px){
     .section-II-card{
         width: 370px;
+        height: 400px;
+        
     }
     .section-II-background{
         width: 370px;
