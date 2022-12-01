@@ -82,6 +82,7 @@
 }
 .footer-l p{
     font-size: 15px;
+    font-weight: normal;
 }
 
 @media (max-width: 950px){
@@ -89,10 +90,15 @@
   display: block;
   padding-left: 15px;
  }
+ .footer-1{
+  display: flex;
+  justify-content: center;
+ }
  .rentals, .dod{
   margin: 50px 0;
  }
  .footer-b input{
   width: 330px;
  }
+ 
 }

@@ -30,6 +30,7 @@ a:hover{
   display: block;
  }
  .middle-top{
-  padding: 50px;
+  /* padding: 50px; */
+  padding-left: 10px;
  }
 }

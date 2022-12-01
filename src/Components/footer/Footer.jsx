@@ -61,7 +61,7 @@ const Footer = () => {
       </div>
       <div className="footer-l">
         <p>© 2021, Your company. All rights reserved.</p>
-        <div className="">
+        <div className="pay">
           <img className="card" src={visa} alt="" />
           <img className="card" src={master} alt="" />
           <img className="card" src={paypal} alt="" />
