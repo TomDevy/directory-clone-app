@@ -49,9 +49,9 @@ position: relative;
 @media (max-width: 950px){
  .travel-card{
     margin: 15px 0;
-    width: 350px;
+    width: 330px;
  }
  .travel-bg{
-    width: 350px;
+    width: 330px;
  }
 }
