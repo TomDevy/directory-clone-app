@@ -98,19 +98,3 @@ color: blue;
     align-items: center;
     gap: 5px;
 }
-@media (max-width: 950px){
-    .section-II-card{
-        width: 450px;
-        height: 480px;
-        display: contents;
-        /* border-radius: 2.0rem; */
-    }
-    .section-II-card:hover{
-        margin-bottom: 10px;
-    }
-    .section-II-background{
-        width: 450px;
-        border-radius: 0.5rem;
-    }
-
-    }
