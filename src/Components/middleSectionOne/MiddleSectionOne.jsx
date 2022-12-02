@@ -8,6 +8,7 @@ import barcelona from "../../assets/Barcelona.webp";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { localAreas } from "../../constants/data";
 
 const MiddleSectionOne = () => {
   function SampleNextArrow(props) {
@@ -79,44 +80,37 @@ const MiddleSectionOne = () => {
           see all guides
         </a>
       </div>
-      <div className="flex-card">
-        <Slider {...settings}>
-          <div className="xtra">
-            <MiddleSectionOneCard
-              Poster={prague}
-              City="Prague"
-              Description="City of hundred towers"
-            />
-          </div>
-          <div className="xtra">
-            <MiddleSectionOneCard
-              Poster={newyork}
-              City="New York"
-              Description="The big apple"
-            />
-          </div>
-          <div className="xtra">
-            <MiddleSectionOneCard
-              Poster={paris}
-              City="Paris"
-              Description="Artist capital of Europe"
-            />
-          </div>
-          <div className="xtra">
-            <MiddleSectionOneCard
-              Poster={barcelona}
-              City="Barcelona"
-              Description="Dali, Gaudi, Barrio, Gotico"
-            />
-          </div>
-          <div className="xtra">
-            <MiddleSectionOneCard
-              Poster={prague}
-              City="Prague"
-              Description="City of hundred towers"
-            />
-          </div>
-        </Slider>
+
+      {/* Show on larger devices */}
+        <div className="grid">
+            {localAreas.map((area, index) => {
+                return (
+                  <div className="xtra" key={index}>
+                    <MiddleSectionOneCard
+                      Poster={area.image}
+                      City={area.location}
+                      Description={area.description}
+                    />
+                  </div>
+                )
+            })}
+        </div>
+
+        <div className="mobile">
+       <Slider {...settings}>
+              {localAreas.map((area, index) => {
+                  return (
+                    <div className="xtra" key={index}>
+                      <MiddleSectionOneCard
+                        Poster={area.image}
+                        City={area.location}
+                        Description={area.description}
+                      />
+                    </div>
+                  )
+              })}
+          
+      </Slider>
       </div>
     </div>
   );

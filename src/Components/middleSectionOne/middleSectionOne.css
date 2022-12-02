@@ -25,7 +25,15 @@ a:hover{
   font-size: 30px;
   font-weight: bold;
 }
-
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 10px;
+  width: 100%;
+}
+.mobile{
+  display: none;
+}
 @media (max-width: 950px){
  .guide{
   display: block;
@@ -33,5 +41,10 @@ a:hover{
  .middle-top{
   padding: 50px;
  }
- 
+ .grid {
+  display: none;
+ }
+ .mobile{
+  display: block;
+ }
 }
