@@ -128,5 +128,6 @@
 @media (max-width: 950px) {
   .s-main {
     padding: 50px 100px;
+    width: fit-content;
   }
 }
