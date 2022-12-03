@@ -1,10 +1,6 @@
 import React from "react";
 import "./middleSectionOne.css";
 import MiddleSectionOneCard from "./MiddleSectionOneCard";
-import prague from "../../assets/Prague.webp";
-import paris from "../../assets/Paris.webp";
-import newyork from "../../assets/New York.webp";
-import barcelona from "../../assets/Barcelona.webp";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
